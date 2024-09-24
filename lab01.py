@@ -10,13 +10,12 @@ def main():
 
 
     # YOUR CODE FOR PART 2 GOES HERE
-    print()
-    print("Code for Part 2: \n")
+ 
     print(f'cost_per_item = ${cost_per_item:0.2f}') # a sample for you to use for the other prices
     print(f'quantity = {quantity}')
     print(f'subtotal_cost = ${subtotal_cost:0.2f}')
     print(f'tax = ${tax:0.2f}')
-    print(f'total_cost = ${total_cost:0.2f} \n')
+    print(f'total_cost = ${total_cost:0.2f}')
 
 
     # THIS IS THE CODE FOR PART 3
@@ -28,7 +27,7 @@ def main():
     investment += investment * interest_rate
     investment += investment * interest_rate
     investment += investment * interest_rate
-    print("Code for Part 3: \n")
+ 
     print('After 5 years, your investment will be worth ' + str(investment) + ' dollars.')
     # expected output: After 5 years, your investment will be worth 1187.6863056468749 dollars.
 
